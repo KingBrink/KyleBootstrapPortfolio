@@ -131,3 +131,44 @@ footer {
 :is(body) {
     grid-template-rows: auto minmax(1fr, 100dvh) auto;
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.firstSec {
+    height: 500px;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+  }
+  .display-3.firstH1 {
+    color: rgb(13, 9, 235);
+    font-size: 80px;
+    text-align: left;
+  }
+  
+  .myimg [alt="DK"] {
+      height: 50vh;
+      width: 100%;
+  }
+  .icons a {
+    padding: 0;
+    font-size: 20px;
+    color: rgb(53, 93, 216);
+  }
