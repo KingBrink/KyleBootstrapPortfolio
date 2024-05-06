@@ -100,7 +100,12 @@ p {
 h1>p {
     margin-top: 70px;
 }
-.container {
+
+.grid-item {
+    border: 1px solid #060202;
+    padding: 10px;
+}
+.container .display-2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
