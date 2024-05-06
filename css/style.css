@@ -16,10 +16,10 @@
     --primary: rgb(0, 0, 0);
     --secondary: white;
     --alternative: hsla(177, 82%, 56%, 0.7);
-    --bgHeaderFooter: rgb(14, 155, 180);
+    --bgHeaderFooter: rgb(51, 199, 233);
     --awesome: rgb(81, 200, 200);
     --bgCAbout: #40dddb;
-    --mainBox-shadow: .2rem .2rem .1rem .2rem rgba(105, 96, 96, 0.75);
+    --mainBox-shadow: .2rem .2rem .1rem .2rem rgba(15, 12, 12, 0.75);
     --card-box-shadow: .5vw .5vw 1vw rgba(11, 144, 151, 0.9);
     --text-shadow: .3rem .3rem .4rem rgba(52, 208, 208, 0.5);
     --mainBg: hsla(186, 90%, 60%, 0.39);
@@ -105,7 +105,7 @@ h1>p {
     border: 1px solid #060202;
     padding: 10px;
 }
-.container .display-2 {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -113,3 +113,21 @@ h1>p {
     gap: 20px;
 }
 
+footer {
+    background-color: #fafdfd;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+/* Grid layout*/
+:is(body) {
+    display: grid;
+    text-align: center;
+}
+
+/* Create three rows */
+:is(body) {
+    grid-template-rows: auto minmax(1fr, 100dvh) auto;
+}
