@@ -91,6 +91,7 @@ h1 {
     line-height: 1.2;
     color: blue;
 }
+
 p {
     font-family: Arial, sans-serif;
     font-size: 24px;
@@ -105,6 +106,7 @@ h1>p {
     border: 1px solid #060202;
     padding: 10px;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -121,6 +123,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 /* Grid layout*/
 :is(body) {
     display: grid;
@@ -156,19 +159,87 @@ body {
     margin-top: 15rem;
     display: flex;
     align-items: center;
-  }
-  .display-3.firstH1 {
-    color: rgb(13, 9, 235);
+}
+
+.display-3.firstH1 {
+    color: rgb(140, 90, 4);
     font-size: 80px;
     text-align: left;
-  }
-  
-  .myimg [alt="DK"] {
-      height: 50vh;
-      width: 100%;
-  }
-  .icons a {
+}
+
+.myimg [alt="DK"] {
+    height: 50vh;
+    width: 100%;
+}
+
+.icons a {
     padding: 0;
     font-size: 20px;
     color: rgb(53, 93, 216);
+}
+
+
+
+/* Card */
+.card {
+    width: calc(25% - 20px); /* Set width of the card (25% of container width with spacing) */
+    margin: 10px; /* Add margin for spacing between cards */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadows to create a card effect */
+    transition: 0.3s; /* Add transition for smoother hover effect */
+  }
+  
+  /* Card Image */
+  .card img {
+    width: 100%; /* Make the image fill the card container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 20px; /* Add padding to the card content */
+  }
+  
+  /* Card Header */
+  .card-header {
+    font-size: 18px; /* Set font size for the header */
+    font-weight: bold; /* Make the header bold */
+  }
+  
+  /* Card Body */
+  .card-body {
+    font-size: 14px; /* Set font size for the body */
+  }
+
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    padding: 20px;
+  }
+
+  .card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    border: 1px solid #ccc;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 10px;
+  }
+
+  .card-content h3 {
+    margin: 0;
+  }
+
+  .card-content p {
+    margin: 0;
   }
