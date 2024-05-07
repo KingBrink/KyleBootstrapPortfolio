@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
 }
 
 
@@ -135,6 +136,10 @@ footer {
     grid-template-rows: auto minmax(1fr, 100dvh) auto;
 }
 
+.img-thumbnail{
+    height: 50px;
+    width: 60px;
+}
 
 * {
     margin: 0;
@@ -146,25 +151,20 @@ footer {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    overflow-x: hidden !important;
 }
 
 .firstSec {
     height: 500px;
-    margin-top: 15rem;
+    margin-top: 150px;
+    margin-bottom: 150px;
     display: flex;
     align-items: center;
 }
 
 .display-3.firstH1 {
     color: rgb(140, 90, 4);
-    font-size: 80px;
-    text-align: left;
+    font-size: 70px;
 }
 
 .myimg [alt="DK"] {
@@ -172,74 +172,88 @@ body {
     width: 100%;
 }
 
+.grid-item{
+    text-align: left;
+    border: 0px;
+}
+
+.grid-item h2{
+    color: rgb(140, 90, 4);
+}
 .icons a {
     padding: 0;
     font-size: 20px;
     color: rgb(53, 93, 216);
 }
 
-
-
-/* Card */
-.card {
-    width: calc(25% - 20px); /* Set width of the card (25% of container width with spacing) */
-    margin: 10px; /* Add margin for spacing between cards */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadows to create a card effect */
-    transition: 0.3s; /* Add transition for smoother hover effect */
-  }
-  
-  /* Card Image */
-  .card img {
-    width: 100%; /* Make the image fill the card container */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  /* Card Content */
-  .card-content {
-    padding: 20px; /* Add padding to the card content */
-  }
-  
-  /* Card Header */
-  .card-header {
-    font-size: 18px; /* Set font size for the header */
-    font-weight: bold; /* Make the header bold */
-  }
-  
-  /* Card Body */
-  .card-body {
-    font-size: 14px; /* Set font size for the body */
+  .skillsRow{
+    justify-content: center;
   }
 
-  .slider {
+  .testRow{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillsRow .card{
+    min-height: 200px;
+    text-align: center;
+  }
+
+  .skillsRow .testcard{
+    height: 610px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .skillsRow .testcard img{
+    margin-top: 15px;
+    width: calc(60.5%);
+    height: calc(56.5%);
+  }
+
+  
+  form input{
+    border-radius: 0px;
+  }
+
+  form textarea{
+    border-radius: 0px;
+  }
+  
+  .subButton{
+      font-size: 18px;
+      width: 40%;
+      border: 2px solid rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
+      border-radius: 0px;
+  }
+  .contact{
+      text-align: left;
+      font-size: clamp(3.4rem, 5vw, 6.5rem);
+  }
+  .deats{
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    padding: 20px;
   }
 
-  .card {
-    flex: 0 0 auto;
-    width: 300px;
-    margin-right: 20px;
-    scroll-snap-align: start;
-    border: 1px solid #ccc;
+  .mail{
+    text-decoration: none !important;
+    color: rgb(0, 0, 0) !important;
   }
 
-  .card img {
-    width: 100%;
-    height: auto;
+  @media screen and (width <600px){
+      .contact{
+          margin-top: 20%;
+      }
+      .contact form{
+        margin-top: 10%;
+      }
+      .deats{
+        flex-direction: column;
+      }
   }
 
-  .card-content {
-    padding: 10px;
-  }
-
-  .card-content h3 {
-    margin: 0;
-  }
-
-  .card-content p {
-    margin: 0;
+  .card-img-top{
+    height: 180px;
   }

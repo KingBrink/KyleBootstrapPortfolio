@@ -9,6 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <title>KyleBootstrapPortfolio</title>
 </head>
 
@@ -16,10 +21,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top p-0">
+        <div class="container-fluid mx-5">
             <a class="navbar-brand" href="#home">
-                <img class="img-thumbnail" src="https://kingbrink.github.io/all-images/images/logo.png" alt="logo">
+                <img class="img-thumbnail" src="https://kingbrink.github.io/all-images/images/logo.png">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -57,226 +62,194 @@
         </div>
     </nav>
     <main>
-        <section>
-            <div class="container" id="home">
-                <section class="firstSec d-flex">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h4 class="firstH4">Hi my name is</h4>
-                            <h1 class="display-3 firstH1">Kyle Brink</h1>
-                            <h3 class="firstH4 my-1">Aspiring Full Stack Developer</h3>
-                            <a href="#about" id="but" class="learn btn btn-lg my-4 px-5">Learn More
-                            </a>
-                            <div class="footer-bar mx-4">
-                                <div class="icons">
-                                    <a href="" target="_blank"><i class="bi bi-youtube"></i></a>
-                                    <a href="https://www.instagram.com/king_brink?igsh=ODk2M20waDc2cm9r&utm_source=qr"
-                                        target="_blank"><i class="bi bi-instagram"></i></a>
-                                    <a href="" target="_blank"><i class="bi bi-github"></i></a>
-                                </div>
+
+        <div class="container" id="home">
+            <section class="firstSec d-flex">
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                        <h4 class="firstH4 mt-4">Hi my name is</h4>
+                        <h1 class="display-3 firstH1">Kyle Brink</h1>
+                        <h3 class="firstH4 my-1">Aspiring Full Stack Developer</h3>
+                        <a href="#about" id="but" class="learn btn btn-lg my-4 px-5">Learn More
+                        </a>
+                        <div class="footer-bar mx-4">
+                            <div class="icons">
+                                <a href="" target="_blank"><i class="bi bi-youtube"></i></a>
+                                <a href="https://www.instagram.com/king_brink?igsh=ODk2M20waDc2cm9r&utm_source=qr"
+                                    target="_blank"><i class="bi bi-instagram"></i></a>
+                                <a href="" target="_blank"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
-                        <div class="myimg col-md-6">
-                            <img src="https://kingbrink.github.io/all-images/images/photo.jpg" alt="DK">
-                        </div>
                     </div>
-                </section>
-                <div class="grid gap-3 row-gap-1" id="about">
-                    <div class="p-2 g-col-3"><br /></div>
-                    <div class="p-2 g-col-3"><br /></div>
+                    <div class="myimg col-md-6" data-aos="fade-left" data-aos-duration="2000"
+                        data-aos-easing="ease-in-sine">
+                        <img src="https://kingbrink.github.io/all-images/images/photo.jpg" alt="DK">
+                    </div>
                 </div>
-
-                <section class="container" id="about">
+            </section>
+        </div>
+        <section class="container" id="about">
+            <div class="row">
+                <h2 class="display-2">About</h2>
+            </div>
+            <div class="row" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <p class="lead">
+                    Hi, my name is Kyle Brink and i am an aspiring Full Stack Developer. I enjoy complex
+                    challenges
+                    aswell as helping other peoples dreams and ideas become a reality. I believe that life is
+                    all about
+                    doing what you love so that it will feel like you never worked a day in your life. This is
+                    why i
+                    fell inlove with coding because it is my passion to design and build other peoples ideas for
+                    them. I
+                    enjoy working in a team listening and taking everyones opinion into consideration to come up
+                    with
+                    the best possible solution.
+                </p>
+                <p class="lead">
+                    In my free time you will find me in the ocean surfing which is my happy place when i am not
+                    infront
+                    of the computer working on new projects and gathering more information on how to better my
+                    coding
+                    skills. I also enjoy spending quality time with my family and close friends, going on hikes
+                    aswell
+                    as watching informative documentaries. My friends call me a workaholic because they will
+                    always find
+                    me coding but they don't understand that to me its a Life Style not work. This is why i
+                    believe
+                    everyone should do what they love and as you can tell from what you see. Coding and putting
+                    peoples
+                    ideas and dreams into reality is what i really enjoy doing.
+                </p>
+            </div>
+        </section>
+        <section class="container" id="education">
+            <div class="row edRow">
+                <h2 class="display-2 mt-5">Education</h2>
+                <div class="grid-container">
                     <div class="row">
-                        <h2 class="display-2">About</h2>
-                    </div>
-                    <div class="row">
-                        <p class="lead">
-                            Hi, my name is Kyle Brink and i am an aspiring Full Stack Developer. I enjoy complex
-                            challenges
-                            aswell as helping other peoples dreams and ideas become a reality. I believe that life is
-                            all about
-                            doing what you love so that it will feel like you never worked a day in your life. This is
-                            why i
-                            fell inlove with coding because it is my passion to design and build other peoples ideas for
-                            them. I
-                            enjoy working in a team listening and taking everyones opinion into consideration to come up
-                            with
-                            the best possible solution.
-                        </p>
-                        <p class="lead">
-                            In my free time you will find me in the ocean surfing which is my happy place when i am not
-                            infront
-                            of the computer working on new projects and gathering more information on how to better my
-                            coding
-                            skills. I also enjoy spending quality time with my family and close friends, going on hikes
-                            aswell
-                            as watching informative documentaries. My friends call me a workaholic because they will
-                            always find
-                            me coding but they don't understand that to me its a Life Style not work. This is why i
-                            believe
-                            everyone should do what they love and as you can tell from what you see. Coding and putting
-                            peoples
-                            ideas and dreams into reality is what i really enjoy doing.
-                        </p>
-                    </div>
-                </section>
-                <section class="container" id="education">
-                    <div class="row">
-                        <h2 class="display-2">Education</h2>
-                        <div class="grid-container">
+                        <div class="col-md-6">
                             <div class="grid-item">
                                 <h2>Life Choices</h2>
                                 <p>I am currently a student at Life Choices Coding Academy</p>
                             </div>
-                            <div class="grid-item">
-                                <h2>Muizenberg High School</h2>
-                                <p>Matric Grade 12 Certificate</p>
-                            </div>
-                            <div class="grid-item">
-                                <h2>St.Augustines Primary School</h2>
-                                <p>Grade 7 Certificate</p>
-                            </div>
-                            <div class="grid-item">
-                                <h2>Qualified Lifegaurd</h2>
-                                <p>Life Saving South africa Certificate</p>
-                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="" alt="lC">
+                        </div>
+                        <div class="grid-item">
+                            <h2>Muizenberg High School</h2>
+                            <p>Matric Grade 12 Certificate</p>
+                        </div>
+                        <div class="grid-item">
+                            <h2>St.Augustines Primary School</h2>
+                            <p>Grade 7 Certificate</p>
+                        </div>
+                        <div class="grid-item">
+                            <h2>Qualified Lifegaurd</h2>
+                            <p>Life Saving South africa Certificate</p>
+                        </div>
+                    </div>
 
-                </section>
-                <section class="container" id="skills">
-                    <div class="row">
-                        <h2 class="display-3">Skills</h2>
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Extrovert <i class="bi bi-megaphone"></i></h5>
-                                <p class="card-text">Very good at public speaking</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Attention to detail <i class="bi bi-search"></i></h5>
-                                <p class="card-text">Exeptional at following instructions</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Great Listener <i class="bi bi-ear"></i></h5>
-                                <p class="card-text">Take other peoples ideas and opinions into consideration</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Creative Mindset<i class="bi bi-lightbulb"></i></h5>
-                                <p class="card-text">Good at coming up with new ideas, i think outside the box</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Time Management <i class="bi bi-stopwatch"></i></h5>
-                                <p class="card-text">Use allowcated time wisely and efficiently</p>
-                            </div>
-                        </div>
-                </section>
-                <section class="container" id="experience">
-                    <div class="row">
-                        <h2 class="display-2">Experience</h2>
-                        <div class="grid-container">
-                            <div class="grid-item">
-                                <h2>Waiter</h2>
-                                <p>Worked as a waiter for 6 months.
-                                    Ive gained the skill to follow orders and instructions without any
-                                    detail being left out. Ive also learnt to put the
-                                    customers needs first and make sure that they are satisfied with the service.
-                                </p>
-                            </div>
-                            <div class="grid-item">
-                                <h2>Life Gaurding</h2>
-                                <p>Ive had the priveledge of being a lifegaurd for more than 5 years
-                                    at the pool and beach.I learnt how to observe people and keep them safe with my
-                                    drowning
-                                    prevention knowledge and skills. I have attained first aid experience which would
-                                    come in handy in the work place if need be.
-                                </p>
-                            </div>
-                            <div class="grid-item">
-                                <h2>Teacher Assistant</h2>
-                                <p>Volunteerd at Heithfield Primary as an assistant teacher for grade 5 students.
-                                    I have gained experience in working with different personalities and understanding
-                                    scenarios
-                                    and feelings
-                                    from different perspectives.
-                                </p>
-                            </div>
-                            <div class="grid-item">
-                                <h2>Sales and Marketing Experience</h2>
-                                <p>I had the priveledge to shadow my aunty as a sales represntative aswell as market
-                                    cars and
-                                    car accesories
-                                    at Toyota. I gained Experience in engaging with clients and pursuading them into
-                                    buying
-                                    products.
-                                </p>
-                            </div>
-                            <div class="grid-item">
-                                <h2>Ambulance Dispatcher</h2>
-                                <p>I shadowed Michaela as an Ambulance Dispather at ResQ911. I learnt how to work well
-                                    under
-                                    pressure
-                                    and do tasks in stressful situations in short periods of time. </p>
-                            </div>
-                        </div>
-                </section>
-                <section class="container" id="projects">
-                    <div class="row">
-                        <h2 class="display-2">
-                            Projects
-                        </h2>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://kingbrink.github.io/all-images/images/calculator.png" class="card-img-top"
-                            alt="...">
+        </section>
+        <section class="container" id="skills">
+            <h2 class="display-3">Skills</h2>
+            <div class="row skillsRow">
+                <div class="col-md-4 mt-4">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Calculator</h5>
-                            <a href="https://github.com/KingBrink/calculator.git" class="card-link"><i
-                                    class="bi bi-github"></i></a>
-                            <a href="https://calculator-flax-zeta.vercel.app/" class="card-link"><i
-                                    class="bi bi-triangle-fill"></i></a>
+                            <img src="" alt="HTML">
+                            <p class="card-text">imtermediate</p>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://kingbrink.github.io/all-images/images/keyboard.png" class="card-img-top"
-                            alt="...">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Keyboard</h5>
-                            <a href="https://github.com/KingBrink/keyboard.git" class="card-link"><i
-                                    class="bi bi-github"></i></a>
-                            <a href="https://keyboard-khaki-one.vercel.app/" class="card-link"><i
-                                    class="bi bi-triangle-fill"></i></a>
+                            <img src="" alt="CSS">
+                            <p class="card-text">imtermediate</p>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://kingbrink.github.io/all-images/images/flipcard.png" class="card-img-top"
-                            alt="...">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Flipcard</h5>
-                            <a href="https://github.com/KingBrink/flexbox-test.git" class="card-link"><i
-                                    class="bi bi-github"></i></a>
-                            <a href="https://flexbox-test-delta.vercel.app/" class="card-link"><i
-                                    class="bi bi-triangle-fill"></i></a>
+                            <img src="" alt="bootstrap">
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://kingbrink.github.io/all-images/images/grids.png" class="card-img-top"
-                            alt="...">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Grids</h5>
-                            <a href="https://github.com/KingBrink/grids.git" class="card-link"><i
-                                    class="bi bi-github"></i></a>
-                            <a href="https://grids-two.vercel.app/" class="card-link"><i
-                                    class="bi bi-triangle-fill"></i></a>
+                            <h5 class="card-title">Creative Mindset<i class="bi bi-lightbulb"></i></h5>
+                            <p class="card-text">Good at coming up with new ideas, i think outside the box</p>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Time Management <i class="bi bi-stopwatch"></i></h5>
+                            <p class="card-text">Use allowcated time wisely and efficiently</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="experience">
+            <div class="row">
+                <h2 class="display-2">Experience</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h2>Waiter</h2>
+                        <p>Worked as a waiter for 6 months.
+                            Ive gained the skill to follow orders and instructions without any
+                            detail being left out. Ive also learnt to put the
+                            customers needs first and make sure that they are satisfied with the service.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Life Gaurding</h2>
+                        <p>Ive had the priveledge of being a lifegaurd for more than 5 years
+                            at the pool and beach.I learnt how to observe people and keep them safe with my
+                            drowning
+                            prevention knowledge and skills. I have attained first aid experience which would
+                            come in handy in the work place if need be.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Teacher Assistant</h2>
+                        <p>Volunteerd at Heithfield Primary as an assistant teacher for grade 5 students.
+                            I have gained experience in working with different personalities and understanding
+                            scenarios
+                            and feelings
+                            from different perspectives.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Sales and Marketing Experience</h2>
+                        <p>I had the priveledge to shadow my aunty as a sales represntative aswell as market
+                            cars and
+                            car accesories
+                            at Toyota. I gained Experience in engaging with clients and pursuading them into
+                            buying
+                            products.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Ambulance Dispatcher</h2>
+                        <p>I shadowed Michaela as an Ambulance Dispather at ResQ911. I learnt how to work well
+                            under
+                            pressure
+                            and do tasks in stressful situations in short periods of time. </p>
+                    </div>
+                </div>
+        </section>
+        <section class="container" id="projects">
+            <h2 class="display-2">Projects</h2>
+            <div class="row skillsRow">
+                <div class="col-md-4">
+                    <div class="card">
                         <img src="https://kingbrink.github.io/all-images/images/hulu.png" class="card-img-top"
                             alt="...">
                         <div class="card-body">
@@ -287,97 +260,173 @@
                                     class="bi bi-triangle-fill"></i></a>
                         </div>
                     </div>
-                </section>
-                <section class="container" id="testimonials">
-                    <div class="row">
-                        <h2 class="display-2">
-                            Testimonials
-                        </h2>
-
-                        <div class="box">
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://kingbrink.github.io/all-images/images/asheeka.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">I have had the pleasure of working alongside Kyle, and I can
-                                        confidently say
-                                        that
-                                        he is an exceptional team member. He has a remarkable ability to listen to
-                                        others ideas with an open mind. His a really great colleague but an even
-                                        better
-                                        friend</p>
-                                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://kingbrink.github.io/all-images/images/grids.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Grids</h5>
+                            <a href="https://github.com/KingBrink/grids.git" class="card-link"><i
+                                    class="bi bi-github"></i></a>
+                            <a href="https://grids-two.vercel.app/" class="card-link"><i
+                                    class="bi bi-triangle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://kingbrink.github.io/all-images/images/flipcard.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Flipcard</h5>
+                            <a href="https://github.com/KingBrink/flexbox-test.git" class="card-link"><i
+                                    class="bi bi-github"></i></a>
+                            <a href="https://flexbox-test-delta.vercel.app/" class="card-link"><i
+                                    class="bi bi-triangle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
+                        <img src="https://kingbrink.github.io/all-images/images/keyboard.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Keyboard</h5>
+                            <a href="https://github.com/KingBrink/keyboard.git" class="card-link"><i
+                                    class="bi bi-github"></i></a>
+                            <a href="https://keyboard-khaki-one.vercel.app/" class="card-link"><i
+                                    class="bi bi-triangle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
+                        <img src="https://kingbrink.github.io/all-images/images/calculator.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator</h5>
+                            <a href="https://github.com/KingBrink/calculator.git" class="card-link"><i
+                                    class="bi bi-github"></i></a>
+                            <a href="https://calculator-flax-zeta.vercel.app/" class="card-link"><i
+                                    class="bi bi-triangle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="testimonials">
+            <h2 class="display-2 mt-5">
+                Testimonials
+            </h2>
+            <div class="row skillsRow">
+                <div class="col-md-5">
+                    <div class="card testcard">
+                        <img src="https://kingbrink.github.io/all-images/images/asheeka.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">I have had the pleasure of working alongside Kyle, and I can
+                                confidently say
+                                that
+                                he is an exceptional team member. He has a remarkable ability to listen to
+                                others ideas with an open mind. His a really great colleague but an even
+                                better
+                                friend</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card testcard">
+                        <img src="https://kingbrink.github.io/all-images/images/caleb.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">His easy going nature and willingness to improve was evident
+                                almost immediately. He surprised me with his people skills and his ability
+                                to
+                                effectively interact with others.
+                                He is wise beyond his years, lightens up the room and has the technical
+                                aptitude
+                                to prove himself an
+                                incredible developer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card testcard">
+                        <img src="https://kingbrink.github.io/all-images/images/joel.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Kyle is a highly creative, well-behaved, and dedicated
+                                individual who thrives
+                                on
+                                collaborating with his peers and excels at working on project assignments.
+                                He has
+                                acquired a diverse range of skills and tools, including HTML5, CSS3, and
+                                Bootstrap.
+                                It is my great pleasure to introduce him to you as an exceptional candidate
+                                and
+                                developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card testcard">
+                        <img src="https://kingbrink.github.io/all-images/images/aanushqa.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Kyle is an extremely dedicated worker who always strives to do
+                                the best he
+                                can. He remains willing to attain new knowledge and works very well in a
+                                team. Kyle has the ability to create a comfortable atmosphere for those
+                                around him and always goes the extra mile when necessary.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="container" id="reachme">
+                <div class="contactsec container-lg" id="Contact">
+                    <h2 class="display-2 mb-5">Contact Me</h2>
+                    <form action="https://formspree.io/f/xleqzzyb" method="POST" class="form"
+                        style="padding-bottom: 7%;">
+                        <div class="row justify-content-center">
+                            <div class="col-5">
+                                <input type="text" class="form-control" name="name" placeholder="First name"
+                                    aria-label="First name" required>
                             </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://kingbrink.github.io/all-images/images/caleb.jpg" class="card-img-top"
-                                    alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">His easy going nature and willingness to improve was evident
-                                        almost immediately. He surprised me with his people skills and his ability
-                                        to
-                                        effectively interact with others.
-                                        He is wise beyond his years, lightens up the room and has the technical
-                                        aptitude
-                                        to prove himself an
-                                        incredible developer.</p>
-                                </div>
+                            <div class="col-5">
+                                <input type="text" class="form-control" name="lastname" placeholder="Last name"
+                                    aria-label="Last name" required>
                             </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://kingbrink.github.io/all-images/images/joel.jpg" class="card-img-top"
-                                    alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Kyle is a highly creative, well-behaved, and dedicated
-                                        individual who thrives
-                                        on
-                                        collaborating with his peers and excels at working on project assignments.
-                                        He has
-                                        acquired a diverse range of skills and tools, including HTML5, CSS3, and
-                                        Bootstrap.
-                                        It is my great pleasure to introduce him to you as an exceptional candidate
-                                        and
-                                        developer</p>
-                                </div>
-                            </div>
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://kingbrink.github.io/all-images/images/aanushqa.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Kyle is an extremely dedicated worker who always strives to do
-                                        the best he
-                                        can. He remains willing to attain new knowledge and works very well in a
-                                        team. Kyle has the ability to create a comfortable atmosphere for those
-                                        around him and always goes the extra mile when necessary.</p>
-                                </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-10 mb-3">
+                                <label for="exampleInputEmail1" class="form-label"></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" name="email" placeholder="Your Email" required>
+                                <div id="emailHelp" class="form-text"></div>
                             </div>
 
-                            <section class="container" id="reachme">
-                                <div class="row">
-                                    <h2 class="display-2">Reach Me</h2>
-                                </div>
+                            <div class="col-10 mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="message"
+                                    placeholder="Enter Message Here" required></textarea>
+                            </div>
+                        </div>
 
+                        <button type="submit" class="btn subButton" name="submit">Submit</button>
+                    </form>
 
-                                <div class="row">
-                                    <form action="https://formspree.io/f/xleqzzyb" method="POST">
-                                        <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                                aria-describedby="emailHelp">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label">Message</label>
-                                            <input type="text" class="form-control" id="exampleInputPassword1">
-                                        </div>
-                                        <div class="mb-3 form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </form>
-                                </div>
-                            </section>
+                    <div class="deats justify-content-around">
+                        <a href="mailto:kyle.brink1602@gmail.com" class="my-3 mail" mail><i
+                                class="fa fa-envelope"></i>kyle.brink1602@gmail.com</a>
+                        <text class="my-3"><i class="fa fa-phone"></i> +27 67 404 6393</text>
+                    </div>
+
+                </div>
+            </section>
     </main>
     <section>
-        <footer class="container-fluid">
+        <footer class="container-fluid bg-black">
             <div class="row">
                 <p class="lead text-white">
                     <span class="shadow">Kyle's Portfolio</span>
@@ -386,6 +435,10 @@
             </div>
         </footer>
     </section>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
