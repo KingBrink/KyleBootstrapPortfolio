@@ -165,6 +165,11 @@ body {
     margin-bottom: 150px;
     display: flex;
     align-items: center;
+
+    background-image: linear-gradient(
+       #D9D9D9
+    );
+    height: 80vh;
 }
 
 .display-3.firstH1 {
@@ -281,4 +286,13 @@ form textarea {
 .pics {
     height: 250px;
     width: 250px;
+}
+
+
+.epRow {
+    background-image:url(ocean2.jpg)
+}
+
+.edRow {
+    background-image: url(ocean3.jpg);
 }
