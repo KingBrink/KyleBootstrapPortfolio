@@ -15,7 +15,7 @@
 /* Custom variables */
 :root {
     --primary: rgb(0, 0, 0);
-    --secondary: white;
+    --secondary: #D9D9D9;
     --alternative: hsla(177, 82%, 56%, 0.7);
     --bgHeaderFooter: rgb(51, 199, 233);
     --awesome: rgb(81, 200, 200);
@@ -120,10 +120,10 @@ h1>p {
 }
 
 footer {
-    background-color: #fafdfd;
+    background-color: #D9D9D9;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #D9D9D9;
     bottom: 0;
     width: 100%;
 }
@@ -290,7 +290,7 @@ form textarea {
 
 
 .epRow {
-    background-image:url(ocean2.jpg)
+    background-image:url(groot.jpg)
 }
 
 .edRow {
