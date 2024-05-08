@@ -137,7 +137,7 @@ footer {
     grid-template-rows: auto minmax(1fr, 100dvh) auto;
 }
 
-.img-thumbnail{
+.img-thumbnail {
     height: 50px;
     width: 60px;
 }
@@ -153,13 +153,13 @@ footer {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    
+
 
 }
 
+
 .firstSec {
-    height: 500px;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 150px;
     display: flex;
     align-items: center;
@@ -175,98 +175,108 @@ body {
     width: 100%;
 }
 
-.grid-item{
+.grid-item {
     text-align: center;
     border: 0px;
 }
 
-.grid-item h2{
+.grid-item h2 {
     color: rgb(140, 90, 4);
 }
+
 .icons a {
     padding: 0;
     font-size: 20px;
     color: rgb(53, 93, 216);
 }
 
-  .skillsRow{
+.skillsRow {
     justify-content: center;
-  }
+}
 
-  .testRow{
+.testRow {
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .skillsRow .card{
+.skillsRow .card {
     min-height: 200px;
     text-align: center;
-  }
+}
 
-  .skillsRow .testcard{
+.skillsRow .testcard {
     height: 610px;
     margin-top: 15px;
     margin-bottom: 15px;
     justify-content: center;
     align-items: center;
-  }
-  .skillsRow .testcard img{
+}
+
+.skillsRow .testcard img {
     margin-top: 15px;
     width: calc(60.5%);
     height: calc(56.5%);
-  }
+}
 
-  
-  form input{
-    border-radius: 0px;
-  }
 
-  form textarea{
+form input {
     border-radius: 0px;
-  }
-  
-  .subButton{
-      font-size: 18px;
-      width: 40%;
-      border: 2px solid rgb(0, 0, 0);
-      color: rgb(0, 0, 0);
-      border-radius: 0px;
-  }
-  .contact{
-      text-align: left;
-      font-size: clamp(3.4rem, 5vw, 6.5rem);
-  }
-  .deats{
+}
+
+form textarea {
+    border-radius: 0px;
+}
+
+.subButton {
+    font-size: 18px;
+    width: 40%;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+}
+
+.contact {
+    text-align: left;
+    font-size: clamp(3.4rem, 5vw, 6.5rem);
+}
+
+.deats {
     display: flex;
-  }
+}
 
-  .mail{
+.mail {
     text-decoration: none !important;
     color: rgb(0, 0, 0) !important;
-  }
+}
 
-  @media screen and (width <600px){
-      .contact{
-          margin-top: 20%;
-      }
-      .contact form{
-        margin-top: 10%;
-      }
-      .deats{
-        flex-direction: column;
-      }
-      :is(.skillsRow .testcard, .card){
+@media screen and (width <600px) {
+    .firstSec{
         height: auto;
-      }
+    }
 
-  }
+    .contact {
+        margin-top: 20%;
+    }
 
-  .card-img-top{
+    .contact form {
+        margin-top: 10%;
+    }
+
+    .deats {
+        flex-direction: column;
+    }
+
+    :is(.skillsRow .testcard, .card) {
+        height: auto;
+    }
+
+}
+
+.card-img-top {
     height: 180px;
-  }
-  .pics{
+}
+
+.pics {
     height: 250px;
     width: 250px;
-  }
-  
-  
+}
