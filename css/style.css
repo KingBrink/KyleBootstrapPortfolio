@@ -177,10 +177,12 @@ body {
     font-size: 70px;
 }
 
-.myimg [alt="DK"] {
+.myimg [alt="KB"] {
     height: 50vh;
     width: 100%;
 }
+
+
 
 .grid-item {
     text-align: center;
@@ -298,6 +300,6 @@ form textarea {
     background-image:url(ocean3.jpg);
 }
 
-.firstSec {
-    border: 3px solid rgb(98, 93, 247);
+.firstSec{
+    gap: 100px;
 }
