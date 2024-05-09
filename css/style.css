@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
+    font-family: Outfit;
 }
 
 
@@ -86,7 +86,7 @@ img[alt='logo'] {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 36px;
     font-weight: bold;
     line-height: 1.2;
@@ -94,7 +94,7 @@ h1 {
 }
 
 p {
-    font-family: Arial, sans-serif;
+    font-family: Outfit;
     font-size: 24px;
     line-height: 1.5;
 }
@@ -153,7 +153,7 @@ footer {
 
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Outfit;
     line-height: 1.6;
 
 
@@ -273,6 +273,10 @@ form textarea {
 
     .deats {
         flex-direction: column;
+    }
+    #projects{
+        height: auto;
+        overflow-y: hidden;
     }
 
     :is(.skillsRow .testcard, .card) {
