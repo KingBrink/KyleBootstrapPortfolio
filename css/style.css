@@ -290,9 +290,14 @@ form textarea {
 
 
 .epRow {
-    background-image:url(ocean3.jpg)
+    background:url(ocean3.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .edRow {
-    background-image: url(ocean2.jpg);
+    background-image:url(ocean3.jpg);
+}
+
+.firstSec {
+    border: 3px solid rgb(98, 93, 247);
 }
